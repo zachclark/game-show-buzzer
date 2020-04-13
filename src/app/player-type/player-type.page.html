@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Game Show Buzzer
+      Blank
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -18,8 +18,20 @@
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div> -->
 
-  <ion-item>
-      <ion-label position="floating">Enter Game Code</ion-label>
-      <ion-input></ion-input>
-  </ion-item>
+  <ion-card>
+      <ion-card-header>
+          <ion-card-title>Host</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+          Choose this card if you are hosting the game.
+      </ion-card-content>
+  </ion-card>
+  <ion-card>
+      <ion-card-header>
+          <ion-card-title>Contestant</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+          Choose this card if you are a contestant in the game.
+      </ion-card-content>
+  </ion-card>
 </ion-content>
