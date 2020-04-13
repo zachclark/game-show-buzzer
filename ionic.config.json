@@ -1,0 +1,7 @@
+{
+  "name": "game-show-buzzer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
